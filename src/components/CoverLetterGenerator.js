@@ -13,7 +13,8 @@ export default function CoverLetterGenerator() {
     setLoading(true);
     setCoverLetter("");
     try {
-      const response = await fetch("/api/generate-cover-letter", {
+      const response = await fetch("https://generate-cover-letter.vercel.app/api/generate-cover-letter", {
+
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ jobDescription }),

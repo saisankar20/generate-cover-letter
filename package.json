@@ -1,0 +1,15 @@
+{
+    "name": "generate-cover-letter",
+    "version": "1.0.0",
+    "homepage": "https://saisankar20.github.io/generate-cover-letter",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+      "gh-pages": "^5.0.0"
+    }
+  }
+  
